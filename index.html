@@ -11,6 +11,7 @@
   <link rel="stylesheet" type="text/css" href="css/lavish-bootstrap.css">
   <link rel="stylesheet" type="text/css" href="css/fullcalendar.min.css">
   <link rel="stylesheet" type="text/css" href="css/site.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     
   <title>Bootstrap Template</title>
   
@@ -31,11 +32,11 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a style="padding: 3px 0 0 0"  ng-href="#/profile"><img src="https://cdn0.iconfinder.com/data/icons/iconshock_guys/128/andrew.png" class="img-circle" style="max-height: 45px;"/></a></li>
+            <li><a  ng-href="#/profile">
+<i class="fa fa-user"></i> Andreas 
+            </a></li>
           </ul>
-          <form class="navbar-form navbar-right">
-            <input type="text" class="form-control" placeholder="Search...">
-          </form>
+          
         </div>
       </div>
     </nav>
@@ -44,22 +45,11 @@
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
-             <li class="active"><a ng-href="#/"><i class="glyphicon glyphicon-home"></i> Overview <span class="sr-only">(current)</span></a></li>
-             <li><a ng-href="#/calendar"><i class="glyphicon glyphicon-calendar"></i> Calendar</a></li>
-            <li><a href="#">Analytics</a></li>
-            <li><a href="#">Export</a></li>
-          </ul>
-          <ul class="nav nav-sidebar">
-            <li><a href="">Nav item</a></li>
-            <li><a href="">Nav item again</a></li>
-            <li><a href="">One more nav</a></li>
-            <li><a href="">Another nav item</a></li>
-            <li><a href="">More navigation</a></li>
-          </ul>
-          <ul class="nav nav-sidebar">
-            <li><a href="">Nav item again</a></li>
-            <li><a href="">One more nav</a></li>
-            <li><a href="">Another nav item</a></li>
+             <li class="active"><a ng-href="#/"><i class="fa fa-home"></i> Overview <span class="sr-only">(current)</span></a></li>
+             <li><a ng-href="#/calendar"><i class="fa fa-calendar"></i> Calendar</a></li>
+            <li><a href="#/members"><i class="fa fa-th-large"></i> Stables</a></li>
+            <li><a href="#/messages"><i class="fa fa-envelope"> Messages</i></a></li>
+            <li><a href="#statistics"><i class="fa fa-bar-chart"> Statistics</i></a></li>
           </ul>
         </div>
 
